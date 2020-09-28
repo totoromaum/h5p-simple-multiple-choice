@@ -1,38 +1,38 @@
 {
   "semantics": [
     {
-      "label": "Question"
+      "label": "질문"
     },
     {
-      "label": "Multiple choice type",
+      "label": "선다형 문제",
       "options": [
         {
-          "label": "Multiple answers"
+          "label": "2개이상의 답"
         },
         {
-          "label": "Single answer"
+          "label": "단답형"
         }
       ]
     },
     {
-      "label": "Answer alternatives",
-      "entity": "Alternative",
+      "label": "대안 답변",
+      "entity": "대안 답변",
       "field": {
-        "label": "Alternative",
+        "label": "대안 답변",
         "fields": [
           {
-            "label": "Text"
+            "label": "텍스트"
           },
           {
-            "label": "Feedback",
+            "label": "피드백",
             "fields": [
               {
-                "label": "Message displayed if answer is selected",
-                "description": "Message will appear below the answer on \"continue\" if this answer is selected."
+                "label": "답변을 선택한 경우 메시지가 표시됨",
+                "description": "이 답변을 선택하면 답변 아래에 \"continue\"(계속)에 메시지가 나타난다."
               },
               {
-                "label": "Message displayed if answer is not selected",
-                "description": "Message will appear below the answer on \"continue\" if this answer is not selected."
+                "label": "응답이 선택되지 않은 경우 메시지 표시",
+                "description": "이 답변이 선택되지 않으면 답변 아래에 \"continue\"(계속)에 메시지가 나타난다."
               }
             ]
           }
